@@ -27,7 +27,7 @@
 
         layer_1 {
             bindings = <
-&kp F1          &kp F2           &kp F3           &kp F4           &kp F5           &kp F6        &kp F7     &kp F8              &kp F9      &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp F12
+&kp F1          &kp F2           &kp F3           &kp F4           &kp F5           &kp F6        &kp F7     &kp F8              &kp F9      &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp ESC
 &kp CAPS        &none            &none            &none            &none            &bt BT_NXT    &none      &kp LC(LEFT_ARROW)  &kp UP      &kp LC(RIGHT)      &none              &none
 &kp LEFT_SHIFT  &none            &none            &none            &none            &bt BT_CLR    &none      &kp LEFT            &kp DOWN    &kp RIGHT          &none              &none
 &kp LCTRL       &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &rgb_ug RGB_EFF  &rgb_ug RGB_TOG  &none         &none      &none               &kp PERIOD  &kp RIGHT_BRACKET  &kp NON_US_BSLH    &kp EQUAL
