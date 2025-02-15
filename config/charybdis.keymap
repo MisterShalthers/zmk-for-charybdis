@@ -1,7 +1,8 @@
+#include <dt-bindings/zmk/mouse.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/mouse.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 &lt {
@@ -16,12 +17,12 @@
 
         Base_Colemak {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3    &kp N4     &kp N5      &kp N6   &kp N7     &kp N8     &kp N9   &kp N0    &kp ESC
-&kp TAB    &kp Q   &kp W   &kp F     &kp P      &kp G       &kp J    &kp L      &kp U      &kp Y    &kp SQT   &kp SEMICOLON
-&kp LALT   &kp A   &kp R   &kp S     &kp T      &kp D       &kp H    &kp N      &kp E      &kp I    &kp O     &kp MINUS
-&kp LCTRL  &kp Z   &kp X   &kp C     &kp V      &kp B       &kp K    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp EQUAL
-                           &kp BSPC  &kp LGUI   &mkp MB2    &mo 1    &kp SPACE
-                                     &kp LSHFT  &mkp MB1    &kp RET
+&kp GRAVE  &kp N1  &kp N2  &kp N3          &kp N4         &kp N5      &kp N6   &kp N7     &kp N8     &kp N9   &kp N0    &kp ESC
+&kp TAB    &kp Q   &kp W   &kp F           &kp P          &kp G       &kp J    &kp L      &kp U      &kp Y    &kp SQT   &kp SEMICOLON
+&kp LALT   &kp A   &kp R   &kp S           &kp T          &kp D       &kp H    &kp N      &kp E      &kp I    &kp O     &kp MINUS
+&kp LCTRL  &kp Z   &kp X   &kp C           &kp V          &kp B       &kp K    &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp EQUAL
+                           &kp LEFT_SHIFT  &kp LGUI       &mkp MB2    &mo 1    &kp SPACE
+                                           &kp BACKSPACE  &mkp MB1    &kp RET
             >;
 
             trackball-bindings = <&tmv_coarse>;
